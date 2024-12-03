@@ -1,0 +1,33 @@
+@mixin multi_subtitle ($color) {
+    color: $color;
+    font-weight: $font-500;
+    font-size: $font-14;
+    font-family: $font-montserrat;
+    letter-spacing: 3px;
+}
+@mixin multi_title {
+      font-size: $font-60;
+      font-weight:$font-700;
+      line-height: 1.2;
+      color: $color-body-white;
+}
+
+
+// fire background img 
+@mixin background_img{
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+@mixin fire_img{
+    background-image: $background-fire-img;
+    @include background_img;
+    
+}
+@mixin fire_img1{
+    background-image: $background-fire-img1;
+    @include background_img;
+}
+

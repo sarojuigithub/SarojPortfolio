@@ -1,0 +1,12 @@
+ <script>
+    // lexical scope 
+    var outerFunction = ()=>{
+        var name ="saroj";
+        var InnerFunction =()=>{
+            var name= "kumar";
+            console.log(name);
+        }
+        InnerFunction();
+    }
+    outerFunction();
+ </script>
