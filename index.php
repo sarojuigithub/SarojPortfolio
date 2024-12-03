@@ -12,16 +12,12 @@
  	<!-- <link rel="stylesheet" href="assets/css/animate.css"> -->
  	<link rel="stylesheet" href="public/css/common.css">
 
-	 <script>
-        window.location.href = "inc/mouse-pointer.php";
-    </script>
+ 	<?php include "inc/mouse-pointer.php" ?>
  </head>
 
  <body>
 	 <div class="indexContainer">
- 		<script>
-			window.location.href = "index2.html";
-		</script>
+		<?php include "index2.php" ?>
 	 </div>
 	 	<!-- <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/gsap.min.js"></script>
